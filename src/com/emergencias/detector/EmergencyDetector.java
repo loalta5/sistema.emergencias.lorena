@@ -6,7 +6,8 @@ import java.util.Scanner;
 public class EmergencyDetector {
 
     private static final String UBICACION_FIJA = "38.267015, -0.700140 (Elche)";
-
+    
+    @SuppressWarnings("resource")
     public EmergencyEvent detectEvent() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("--- Módulo de Detección ---");

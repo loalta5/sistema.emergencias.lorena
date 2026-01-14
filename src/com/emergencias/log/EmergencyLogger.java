@@ -1,4 +1,4 @@
-package com.emergencies.log;
+package com.emergencias.log;
 
 import com.emergencias.model.EmergencyEvent;
 import java.io.FileWriter;
