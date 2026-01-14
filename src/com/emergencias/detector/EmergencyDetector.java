@@ -22,6 +22,7 @@ public class EmergencyDetector {
                     com.emergencias.AplicacionEmergencias.getDatosUsuario());
         } else {
             System.out.println("Activación cancelada o sin emergencia.");
+            scanner.close();
             return null;
         }
     }

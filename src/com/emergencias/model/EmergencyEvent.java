@@ -32,20 +32,32 @@ public class EmergencyEvent {
             return userData;
         }
 
-    @Override
-    public String toString() {
-        // Definimos una cadena para los datos de contacto
-        String datosContacto;
+        @Override
+        public String toString() {
+            // Definimos una cadena para los datos de contacto
+            String datosContacto;
 
-        // Si userData NO es nulo, lo incluimos
-        if (this.userData != null) {
-            datosContacto = "\n--- Datos de Contacto ---\n" + userData.toString();
-        } else {
-            // Si userData ES nulo (como cuando lo crea el detector), mostramos un mensaje seguro
-            datosContacto = "\n--- Datos de Contacto: No disponibles (Evento Generado por Detector) ---";
+            // Si userData NO es nulo, lo incluimos
+            if (this.userData != null) {
+                datosContacto = "\n--- Datos de Contacto ---\n" + userData.toString();
+            } else {
+                // Si userData ES nulo (como cuando lo crea el detector), mostramos un mensaje seguro
+                datosContacto = "\n--- Datos de Contacto: No disponibles (Evento Generado por Detector) ---";
+            }
+
+            return "Emergencia: Tipo=" + tipo + ", Ubicacion=" + ubicacion + datosContacto;
+        }
+        
+        // --- MÉTODOS AÑADIDOS PARA RESOLVER ERRORES DE COMPILACIÓN ---
+        public String getDescription() {
+            // Este método se usa en EmergencyLogger.java
+            return this.tipo;
         }
 
-        return "Emergencia: Tipo=" + tipo + ", Ubicacion=" + ubicacion + datosContacto;
-    }
+        public String getLocation() {
+            // Este método se usa en EmergencyLogger.java
+            return this.ubicacion;
+        }
+        // -----------------------------------------------------------
 
 }
