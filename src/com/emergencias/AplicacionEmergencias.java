@@ -7,11 +7,11 @@ import com.emergencias.model.UserData;
 
 public class AplicacionEmergencias {
 
-       public static void main(String[] args) {
+public static void main(String[] args) {
 
         System.out.println("--- INICIANDO SISTEMA DE EMERGENCIAS ---");
 
-        ConfiguracionSistema.cargarDatosUsuario(); 
+        ConfiguracionSistema.cargarDatosUsuario();
 
             if (ConfiguracionSistema.getDatosUsuario() != null) {
             System.out.println("\n✅ Datos de Usuario Cargados con Éxito:");
@@ -32,17 +32,16 @@ public class AplicacionEmergencias {
         System.out.println("\n--- FIN DE LA EJECUCIÓN ---");
     }
 
-   
+
     public static void crearYReportarEmergenciaEjemplo() {
-      
+
         EmergencyEvent miEmergencia = new EmergencyEvent(
                 "Accidente de Tráfico",
                 "Avenida Oscar Esplá, 50",
-                ConfiguracionSistema.getDatosUsuario() 
+                ConfiguracionSistema.getDatosUsuario()
         );
 
         System.out.println("\n--- 🚨 REPORTE DE EMERGENCIA CREADO ---");
         System.out.println(miEmergencia.toString());
     }
-
 }
