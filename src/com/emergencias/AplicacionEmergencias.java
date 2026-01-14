@@ -4,6 +4,7 @@ import com.emergencias.alert.AlertSender;
 import com.emergencias.detector.EmergencyDetector;
 import com.emergencias.model.EmergencyEvent;
 import com.emergencias.model.UserData;
+import com.emergencias.log.EmergencyLogger; // Importación añadida para la nueva funcionalidad
 
 public class AplicacionEmergencias {
 
@@ -26,6 +27,11 @@ public class AplicacionEmergencias {
                 try {
                     EmergencyEvent event = detector.detectEvent();
                     sender.sendAlert(event);
+                    
+                    // --- NUEVA FUNCIONALIDAD AÑADIDA ---
+                    EmergencyLogger.logEvent(event); 
+                    // ------------------------------------
+
                     crearYReportarEmergenciaEjemplo();
                 } catch (Exception e) {
                     System.err.println("\n❌ ERROR al detectar o enviar la emergencia: " + e.getMessage());
@@ -58,6 +64,10 @@ public class AplicacionEmergencias {
 
         System.out.println("\n--- 🚨 REPORTE DE EMERGENCIA CREADO ---");
         System.out.println(miEmergencia.toString());
+        
+        // --- NUEVA FUNCIONALIDAD AÑADIDA ---
+        EmergencyLogger.logEvent(miEmergencia);
+        // ------------------------------------
     }
 
     public static UserData getDatosUsuario() {
@@ -66,3 +76,4 @@ public class AplicacionEmergencias {
         return ConfiguracionSistema.getDatosUsuario();
     }
 }
+
