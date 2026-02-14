@@ -1,4 +1,4 @@
-package com.emergencies;
+package com.emergencias;
 
 import com.emergencias.model.UserData;
 import java.io.BufferedReader;
