@@ -11,3 +11,38 @@ Datos Usuario:
   Teléfono: +34 625478104
   Sangre: A+
   Contacto: María Ramírez
+Emergencia: Tipo=General, Ubicacion=38.267015, -0.700140 (Elche)
+--- Datos de Contacto ---
+Datos Usuario:
+  Nombre: Juan Martínez
+  Teléfono: +34 625478104
+  Sangre: A+
+  Contacto: María Ramírez
+Emergencia: Tipo=General, Ubicacion=38.267015, -0.700140 (Elche)
+--- Datos de Contacto ---
+Datos Usuario:
+  Nombre: Juan Martínez
+  Teléfono: +34 625478104
+  Sangre: A+
+  Contacto: María Ramírez
+Emergencia: Tipo=General, Ubicacion=38.267015, -0.700140 (Elche)
+--- Datos de Contacto ---
+Datos Usuario:
+  Nombre: Juan Martínez
+  Teléfono: +34 625478104
+  Sangre: A+
+  Contacto: María Ramírez
+Emergencia: Tipo=General, Ubicacion=38.267015, -0.700140 (Elche)
+--- Datos de Contacto ---
+Datos Usuario:
+  Nombre: Juan Martínez
+  Teléfono: +34 625478104
+  Sangre: A+
+  Contacto: María Ramírez
+Emergencia: Tipo=General, Ubicacion=38.267015, -0.700140 (Elche)
+--- Datos de Contacto ---
+Datos Usuario:
+  Nombre: Juan Martínez
+  Teléfono: +34 625478104
+  Sangre: A+
+  Contacto: María Ramírez
