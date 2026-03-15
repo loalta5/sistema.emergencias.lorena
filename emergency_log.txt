@@ -1,0 +1,10 @@
+2026/01/14 19:25:30 - General at 38.267015, -0.700140 (Elche)
+2026/01/14 19:25:30 - Accidente de Tráfico at Avenida Oscar Esplá, 50
+2026/02/14 19:04:19 - General at 38.267015, -0.700140 (Elche)
+2026/02/14 19:04:19 - Accidente de Tráfico at Avenida Oscar Esplá, 50
+2026/02/17 09:46:44 - General at 38.267015, -0.700140 (Elche)
+2026/02/17 09:46:44 - Accidente de Tráfico at Avenida Oscar Esplá, 50
+2026/03/15 09:37:50 - General at 38.267015, -0.700140 (Elche)
+2026/03/15 09:37:50 - Accidente de Tráfico at Avenida Oscar Esplá, 50
+2026/03/15 09:49:52 - General at 38.267015, -0.700140 (Elche)
+2026/03/15 09:49:52 - Accidente de Tráfico at Avenida Oscar Esplá, 50
